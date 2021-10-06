@@ -1,0 +1,47 @@
+{
+    "project_info": {
+        "project_number": "775956759860",
+        "project_id": "restaurant-manage-6f9d0",
+        "storage_bucket": "restaurant-manage-6f9d0.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:775956759860:android:bd2a3e5951f82ad0a65161",
+                "android_client_info": {
+                    "package_name": "com.example.finallyidontcare"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "775956759860-h28aie4q2pv2idr6fdi046vdqrihgiic.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "com.example.finallyidontcare",
+                        "certificate_hash": "060850e0f9e3e332b0dbe51b28b4496f3775035e"
+                    }
+                },
+                {
+                    "client_id": "775956759860-vset2504ii238157tp3eio8nnpigi8vi.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAFcfxSYpr_1ob0KT11ZW8dgtxdgp4gmOs"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "775956759860-vset2504ii238157tp3eio8nnpigi8vi.apps.googleusercontent.com",
+                            "client_type": 3
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}

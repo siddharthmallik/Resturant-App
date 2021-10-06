@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/resimg"
+                />
+        </FrameLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/txt"
+            android:layout_marginTop="6dp"
+            android:text="Diva Palace Restaurant"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@id/txt"
+            android:layout_marginLeft="15dp"
+            android:text="Mumbai,Maharashtra"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rating" />
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="6dp"
+            android:text="4.4" />
+    </RelativeLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:columnCount="3"
+        android:rowCount="1"
+        android:padding="5dp"
+        android:background="#EFD0DB"
+        >
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/clk"
+            android:layout_marginLeft="32dp"
+            />
+        <ImageButton
+            android:id="@+id/mpbt"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="69dp"
+            android:background="@drawable/ic_baseline_directions_24"
+            />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="65dp"
+            android:background="@drawable/phone"/>
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EFD0DB">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9AM-11PM"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Directions"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8976828239"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#EFD0DB"
+        >
+        <TextView
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/dine"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="25dp"
+            android:text="Dine-in . Curbside pickup\nNo-contact delivery"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#9FC3C3"
+        >
+        <Button
+            android:id="@+id/mpbt2"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/location"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:text="Diva palace Restaurant,chandrangan \nresidency,Diva shil Rd,Thane-400612"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EFD0DB">
+        <TextView
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/web"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:text="Visit Website"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    tools:context=".HomePage">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recview"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        tools:listitem="@layout/sample_recylarvw"/>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+        <ImageButton
+            android:id="@+id/ListMenu"
+            android:layout_width="330dp"
+            android:layout_height="128dp"
+            android:contentDescription="@string/restaurant_menu"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/menu1"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"/>
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="330dp"
+            android:layout_height="270dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="10dp"
+            app:columnCount="2"
+            app:orientation="vertical"
+            app:rowCount="3">
+
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="166dp"
+                android:layout_height="128dp"
+                android:contentDescription="@string/reserve_table_to_eat_later"
+                android:scaleType="centerCrop"
+                app:layout_column="0"
+                app:layout_row="0"
+                app:srcCompat="@drawable/reserve" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="166dp"
+                android:layout_height="128dp"
+                android:contentDescription="@string/order_food_online"
+                android:scaleType="centerCrop"
+                app:layout_column="1"
+                app:layout_row="0"
+                app:srcCompat="@drawable/order" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="166dp"
+                android:layout_height="128dp"
+                android:contentDescription="About Us"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                app:layout_column="0"
+                app:layout_row="1"
+                app:srcCompat="@drawable/reviews" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="166dp"
+                android:layout_height="128dp"
+                android:contentDescription="@string/provide_feedback"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                app:layout_column="1"
+                app:layout_row="1"
+                app:srcCompat="@drawable/feed" />
+        </androidx.gridlayout.widget.GridLayout>
+    </LinearLayout>
+
+</LinearLayout>

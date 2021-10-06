@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names">
+        <item>Select Dishes</item>
+        <item>Paneer Do Payazza</item>
+        <item>Shahi Paneer Masala</item>
+        <item>Palak Paneer</item>
+        <item>Paneer Makhni</item>
+        <item>Paneer Shahi Korma</item>
+        <item>Paneer Handi</item>
+        <item>Paneer Chilli</item>
+        <item>Veg Manchurian</item>
+        <item>Chineese Noodles</item>
+        <item>Dal Fry</item>
+        <item>Dal Makhani</item>
+        <item>Mix Vegetable</item>
+        <item>Punjabi Chole Masala</item>
+        <item>Sarson Ka Saag</item>
+        <item>Palak Mushroom</item>
+        <item>Veg Kolhapuri</item>
+        <item>Veg Maratha</item>
+        <item>Baingan Masala</item>
+        <item>Chole Bhature</item>
+    </string-array>
+
+
+    <string-array name="Payment">
+        <item>Payment Option</item>
+        <item>Online Payment</item>
+        <item>Cash On Delivery</item>
+    </string-array>
+</resources>

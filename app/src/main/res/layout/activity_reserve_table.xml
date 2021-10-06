@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".ReserveTable"
+    android:background="@color/purple_200">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundbtn"
+        android:gravity="center_horizontal"
+        android:padding="15dp"
+        android:text="Reservation"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="382dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="120dp"
+        android:background="#708090" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/dateTIL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/dateinput"
+        android:layout_width="382dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="210dp"
+        android:background="#2C5F8C"
+        android:hint="Select Date"
+        android:inputType="date"
+        android:padding="15dp"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        tools:ignore="Autofill" />
+    <EditText
+        android:id="@+id/timeinput"
+        android:layout_width="382dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="300dp"
+        android:background="#2C5F8C"
+        android:hint="Select Time"
+        android:inputType="date"
+        android:padding="15dp"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        tools:ignore="Autofill" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="380dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/roundbtn"
+            android:text="Reserve Table"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Note:\nTable will be reserve only for 20 minutes after the reservation."/>
+
+    </LinearLayout>
+</RelativeLayout>
